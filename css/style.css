@@ -1623,11 +1623,11 @@ div#preloader {
   padding: 100px;
 }
 
-.contact-form input[type="text"], .contact-form input[type="email"] {
+.contact-form input[type="text"], .contact-form input[type="email"], .contact-form input[type="tel"] {
   background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
-  border: 1px solid #ccc;
+  border: 1px solid #3EC1D5;
   border-radius: 0;
-  color: #444;
+  color: #fff;
   height: 40px;
   margin-bottom: 16px;
   padding-left: 20px;
@@ -1636,7 +1636,7 @@ div#preloader {
 
 .contact-form textarea  {
   background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
-  border: 1px solid #ccc;
+  border: 1px solid #3EC1D5;
   border-radius: 0;
   color: #444;
   height: 140px;
@@ -1646,8 +1646,8 @@ div#preloader {
 
 .contact-form button[type="submit"] {
   background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
-  border: 1px solid #ccc;
-  color: #444;
+  border: 1px solid #3ec1d5;
+  color: #3ec1d5;
   font-size: 16px;
   font-weight: 700;
   margin-top: 8px;
@@ -2353,6 +2353,10 @@ span.email-notes {
 
 .text-white {
   color: #fff;
+}
+
+.mb-5{
+  margin-bottom: 3em;
 }
 
 /*----------------------------------------
